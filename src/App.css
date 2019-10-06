@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  align: center;
 }
 
 .App-logo {
@@ -19,4 +20,18 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+.Box{
+  width : 80px;
+  height : 80px;
+  line-height: 80px;
+  border : 1px solid black;
+  display: inline-block;
+}
+.board{
+  margin-left: 80px;
+  width: 320px;
+  display: inline-flex;
+  flex-wrap: wrap;
 }
