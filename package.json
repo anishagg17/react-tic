@@ -1,7 +1,8 @@
 {
   "name": "tic",
   "version": "0.1.0",
-  "private": true,
+  "homepage": "https://anishagg17.github.io/React-tic-tac-toe",
+  "private": false,
   "dependencies": {
     "gh-pages": "^2.1.1",
     "react": "^16.10.2",
@@ -9,7 +10,9 @@
     "react-scripts": "3.2.0"
   },
   "scripts": {
-    "homepage": "https://anishagg17.github.io/React-tic-tac-toe",
+    
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
